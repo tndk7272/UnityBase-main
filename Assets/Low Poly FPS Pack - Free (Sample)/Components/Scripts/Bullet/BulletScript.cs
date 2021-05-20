@@ -51,7 +51,7 @@ public class BulletScript : MonoBehaviour {
 
 		//If bullet collides with "Target" tag
 		if (collision.transform.tag == "Target") 
-		{
+		{ 
 			//Toggle "isHit" on target object
 			collision.transform.gameObject.GetComponent
 				<TargetScript>().isHit = true;
