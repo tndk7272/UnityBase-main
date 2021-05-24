@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 1718463730145176325}
   - component: {fileID: 8401723449243958109}
   - component: {fileID: 8401723449243958110}
+  - component: {fileID: -463617582274344475}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -460,6 +461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98d8ef2462acf264080a4d8e9efbe064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  handle1: 0
+  handle2: 0
+  handle3: 0
   direction: {x: 0, y: 0, z: 0}
   player: {fileID: 0}
   agent: {fileID: 8401723449243958109}
@@ -468,13 +472,26 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  animator: {fileID: 0}
-  wayPointIndex: 0
-  viewingDistance: 3
-  viewingAngle: 90
-  handle1: 0
-  handle2: 0
-  handle3: 0
+  animator: {fileID: 1718463730145176325}
+  wayPointIndex: 1
+  viewingDistance: 5.9
+  viewingAngle: 121.7
+  attackedEffect: {fileID: 1427962332153456, guid: 301583a5af63a494298d60cd9f296909, type: 3}
+  destroyEffect: {fileID: 1126181125208960, guid: ca26d7307564ff848b29e32bbe6279ef, type: 3}
+  hp: 4
+--- !u!65 &-463617582274344475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718463730135816377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.57, y: 2.1846867, z: 0.49}
+  m_Center: {x: 0, y: 1.02, z: -0.01}
 --- !u!1 &1718463730135816379
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1718463730135909601}
+  - component: {fileID: 9148934633212673687}
   m_Layer: 0
   m_Name: Bip001 Head
   m_TagString: Untagged
@@ -674,6 +692,19 @@ Transform:
   m_Father: {fileID: 1718463730135909627}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &9148934633212673687
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718463730135816385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.54
+  m_Center: {x: -0.11, y: 0, z: 0}
 --- !u!1 &1718463730135816387
 GameObject:
   m_ObjectHideFlags: 0
