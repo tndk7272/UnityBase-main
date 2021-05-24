@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 1718463730135909593}
   - component: {fileID: 1718463730145176325}
   m_Layer: 0
-  m_Name: Soldier_demo
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -474,8 +474,8 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69c0fd068809d2a4cafbb12fd8e38326, type: 2}
-  - {fileID: 2100000, guid: f1ffde0cab3b53e4b8db6c78d825b21a, type: 2}
+  - {fileID: 2100000, guid: 5f0499db5f6ff2c44bfe5523954f1551, type: 2}
+  - {fileID: 2100000, guid: 5f0499db5f6ff2c44bfe5523954f1551, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

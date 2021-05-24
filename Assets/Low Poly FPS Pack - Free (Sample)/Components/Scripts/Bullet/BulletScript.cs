@@ -59,13 +59,13 @@ public class BulletScript : MonoBehaviour {
 			Destroy(gameObject);
 		}
 
-        if(collision.transform.tag == "Enemy")
+        /*if(collision.transform.tag == "Enemy")
         {
 			collision.transform.GetComponent
 				<TargetEnemy>().OnHit();
 			Destroy(gameObject);
 
-		}
+		}*/
 			
 		//If bullet collides with "ExplosiveBarrel" tag
 		if (collision.transform.tag == "ExplosiveBarrel") 
